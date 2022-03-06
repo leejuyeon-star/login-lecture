@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express":"^4.17.3"
+  },
+  "name": "login-lecture",
+  "version": "1.0.0",
+  "description": "로그인 페이지",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejuyeon-star/login-lecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leejuyeon-star/login-lecture/issues"
+  },
+  "homepage": "https://github.com/leejuyeon-star/login-lecture#readme"
+  
+}

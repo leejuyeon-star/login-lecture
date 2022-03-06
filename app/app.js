@@ -6,10 +6,10 @@ const express = require("express"); //  express 프로그램 가져오기
 const app = express();  //  express 별명짓기
 
 //라우터와 app.js 연결시키기코드
-const home = require("./routes/home");  
+const home = require("./src/routes/home");  
 
 //앱 세팅
-app.set("views", "./views");  //뷰 세팅, 뷰폴더명 적기
+app.set("views", "./src/views");  //뷰 세팅, 뷰폴더명 적기
 app.set("view engine", "ejs"); //뷰 엔진 세팅
 
 
